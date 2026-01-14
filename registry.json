@@ -2,299 +2,355 @@
   "version": "1.0.0",
   "last_updated": "2026-01-11",
   "widgets": {
-    "clock": {
-      "name": "Clock",
-      "type_path": "yasb.clock.ClockWidget",
-      "category": "System",
-      "description": "Displays current time and date with optional calendar"
-    },
-    "power_menu": {
-      "name": "Power Menu",
-      "type_path": "yasb.power_menu.PowerMenuWidget",
-      "category": "System",
-      "description": "System power options (shutdown, restart, sleep, etc.)"
-    },
-    "notifications": {
-      "name": "Notifications",
-      "type_path": "yasb.notifications.NotificationsWidget",
-      "category": "System",
-      "description": "Windows notification center access and counter"
-    },
-    "systray": {
-      "name": "System Tray",
-      "type_path": "yasb.systray.SystrayWidget",
-      "category": "System",
-      "description": "System tray icons container"
-    },
-    "language": {
-      "name": "Language",
-      "type_path": "yasb.language.LanguageWidget",
-      "category": "System",
-      "description": "Current keyboard language/input method"
-    },
-    "power_plan": {
-      "name": "Power Plan",
-      "type_path": "yasb.power_plan.PowerPlanWidget",
-      "category": "System",
-      "description": "Windows power plan selector"
-    },
-    "update_check": {
-      "name": "Update Check",
-      "type_path": "yasb.update_check.UpdateCheckWidget",
-      "category": "System",
-      "description": "Check for Windows updates"
-    },
-    "recycle_bin": {
-      "name": "Recycle Bin",
-      "type_path": "yasb.recycle_bin.RecycleBinWidget",
-      "category": "System",
-      "description": "Recycle bin status and controls"
-    },
-    "cpu": {
-      "name": "CPU",
-      "type_path": "yasb.cpu.CpuWidget",
-      "category": "Hardware",
-      "description": "CPU usage and frequency monitoring"
-    },
-    "memory": {
-      "name": "Memory",
-      "type_path": "yasb.memory.MemoryWidget",
-      "category": "Hardware",
-      "description": "RAM usage monitoring"
-    },
-    "gpu": {
-      "name": "GPU",
-      "type_path": "yasb.gpu.GpuWidget",
-      "category": "Hardware",
-      "description": "GPU usage and temperature monitoring"
-    },
-    "disk": {
-      "name": "Disk",
-      "type_path": "yasb.disk.DiskWidget",
-      "category": "Hardware",
-      "description": "Disk space usage monitoring"
-    },
-    "battery": {
-      "name": "Battery",
-      "type_path": "yasb.battery.BatteryWidget",
-      "category": "Hardware",
-      "description": "Battery status and remaining time"
-    },
-    "brightness": {
-      "name": "Brightness",
-      "type_path": "yasb.brightness.BrightnessWidget",
-      "category": "Hardware",
-      "description": "Screen brightness control"
-    },
-    "libre_monitor": {
-      "name": "Libre HW Monitor",
-      "type_path": "yasb.libre_monitor.LibreMonitorWidget",
-      "category": "Hardware",
-      "description": "Hardware monitoring via LibreHardwareMonitor"
-    },
-    "media": {
-      "name": "Media",
-      "type_path": "yasb.media.MediaWidget",
-      "category": "Media",
-      "description": "Media player controls and now playing info"
-    },
-    "volume": {
-      "name": "Volume",
-      "type_path": "yasb.volume.VolumeWidget",
-      "category": "Media",
-      "description": "System volume control"
-    },
-    "microphone": {
-      "name": "Microphone",
-      "type_path": "yasb.microphone.MicrophoneWidget",
-      "category": "Media",
-      "description": "Microphone volume and mute control"
-    },
-    "cava": {
-      "name": "CAVA",
-      "type_path": "yasb.cava.CavaWidget",
-      "category": "Media",
-      "description": "Audio visualizer using CAVA"
-    },
     "active_window": {
       "name": "Active Window",
       "type_path": "yasb.active_window.ActiveWindowWidget",
       "category": "Window Manager",
-      "description": "Shows the currently focused window title"
-    },
-    "taskbar": {
-      "name": "Taskbar",
-      "type_path": "yasb.taskbar.TaskbarWidget",
-      "category": "Window Manager",
-      "description": "Windows taskbar replacement"
-    },
-    "windows_desktops": {
-      "name": "Windows Desktops",
-      "type_path": "yasb.windows_desktops.WindowsDesktopsWidget",
-      "category": "Window Manager",
-      "description": "Windows virtual desktop switcher"
-    },
-    "komorebi_workspaces": {
-      "name": "Komorebi Workspaces",
-      "type_path": "komorebi.workspaces.WorkspaceWidget",
-      "category": "Window Manager",
-      "description": "Komorebi workspace indicator and switcher"
-    },
-    "komorebi_active_layout": {
-      "name": "Komorebi Layout",
-      "type_path": "komorebi.active_layout.ActiveLayoutWidget",
-      "category": "Window Manager",
-      "description": "Komorebi tiling layout indicator"
-    },
-    "komorebi_control": {
-      "name": "Komorebi Control",
-      "type_path": "komorebi.control.ControlWidget",
-      "category": "Window Manager",
-      "description": "Komorebi control buttons"
-    },
-    "komorebi_stack": {
-      "name": "Komorebi Stack",
-      "type_path": "komorebi.stack.StackWidget",
-      "category": "Window Manager",
-      "description": "Komorebi stacked windows indicator"
-    },
-    "glazewm_workspaces": {
-      "name": "GlazeWM Workspaces",
-      "type_path": "glazewm.workspaces.WorkspaceWidget",
-      "category": "Window Manager",
-      "description": "GlazeWM workspace indicator and switcher"
-    },
-    "glazewm_binding_mode": {
-      "name": "GlazeWM Binding Mode",
-      "type_path": "glazewm.binding_mode.BindingModeWidget",
-      "category": "Window Manager",
-      "description": "GlazeWM binding mode indicator"
-    },
-    "glazewm_tiling_direction": {
-      "name": "GlazeWM Tiling Direction",
-      "type_path": "glazewm.tiling_direction.TilingDirectionWidget",
-      "category": "Window Manager",
-      "description": "GlazeWM tiling direction indicator"
-    },
-    "wifi": {
-      "name": "WiFi",
-      "type_path": "yasb.wifi.WifiWidget",
-      "category": "Network",
-      "description": "WiFi connection status and signal strength"
-    },
-    "traffic": {
-      "name": "Traffic",
-      "type_path": "yasb.traffic.TrafficWidget",
-      "category": "Network",
-      "description": "Network traffic monitoring"
-    },
-    "bluetooth": {
-      "name": "Bluetooth",
-      "type_path": "yasb.bluetooth.BluetoothWidget",
-      "category": "Network",
-      "description": "Bluetooth status and device management"
-    },
-    "server_monitor": {
-      "name": "Server Monitor",
-      "type_path": "yasb.server_monitor.ServerMonitorWidget",
-      "category": "Network",
-      "description": "Monitor remote server status"
-    },
-    "home": {
-      "name": "Home",
-      "type_path": "yasb.home.HomeWidget",
-      "category": "Productivity",
-      "description": "Home menu with quick access and system options"
-    },
-    "applications": {
-      "name": "Applications",
-      "type_path": "yasb.applications.ApplicationsWidget",
-      "category": "Productivity",
-      "description": "Application launcher shortcuts"
-    },
-    "launchpad": {
-      "name": "Launchpad",
-      "type_path": "yasb.launchpad.LaunchpadWidget",
-      "category": "Productivity",
-      "description": "macOS-style app launchpad"
-    },
-    "todo": {
-      "name": "Todo",
-      "type_path": "yasb.todo.TodoWidget",
-      "category": "Productivity",
-      "description": "Task/todo list widget"
-    },
-    "notes": {
-      "name": "Notes",
-      "type_path": "yasb.notes.NotesWidget",
-      "category": "Productivity",
-      "description": "Quick notes widget"
-    },
-    "pomodoro": {
-      "name": "Pomodoro",
-      "type_path": "yasb.pomodoro.PomodoroWidget",
-      "category": "Productivity",
-      "description": "Pomodoro timer for productivity"
-    },
-    "vscode": {
-      "name": "VS Code",
-      "type_path": "yasb.vscode.VscodeWidget",
-      "category": "Productivity",
-      "description": "VS Code recent projects launcher"
-    },
-    "github": {
-      "name": "GitHub",
-      "type_path": "yasb.github.GithubWidget",
-      "category": "Productivity",
-      "description": "GitHub notifications widget"
-    },
-    "obs": {
-      "name": "OBS",
-      "type_path": "yasb.obs.ObsWidget",
-      "category": "Productivity",
-      "description": "OBS Studio controls"
+      "description": "Shows the currently focused window title",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Active-Windows-Title"
     },
     "ai_chat": {
       "name": "AI Chat",
       "type_path": "yasb.ai_chat.AiChatWidget",
       "category": "Productivity",
-      "description": "AI chat assistant integration"
+      "description": "AI chat assistant integration",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Ai-Chat"
     },
-    "weather": {
-      "name": "Weather",
-      "type_path": "yasb.weather.WeatherWidget",
-      "category": "Utilities",
-      "description": "Weather forecast and current conditions"
+    "applications": {
+      "name": "Applications",
+      "type_path": "yasb.applications.ApplicationsWidget",
+      "category": "Productivity",
+      "description": "Application launcher shortcuts",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Applications"
     },
-    "wallpapers": {
-      "name": "Wallpapers",
-      "type_path": "yasb.wallpapers.WallpapersWidget",
-      "category": "Utilities",
-      "description": "Wallpaper changer widget"
+    "battery": {
+      "name": "Battery",
+      "type_path": "yasb.battery.BatteryWidget",
+      "category": "Hardware",
+      "description": "Battery status and remaining time",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Battery"
     },
-    "glucose_monitor": {
-      "name": "Glucose Monitor",
-      "type_path": "yasb.glucose_monitor.GlucoseMonitorWidget",
-      "category": "Utilities",
-      "description": "Blood glucose level monitor (Dexcom)"
+    "brightness": {
+      "name": "Brightness",
+      "type_path": "yasb.brightness.BrightnessWidget",
+      "category": "Hardware",
+      "description": "Screen brightness control",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Brightness"
     },
-    "whkd": {
-      "name": "WHKD",
-      "type_path": "yasb.whkd.WhkdWidget",
-      "category": "Utilities",
-      "description": "WHKD hotkey daemon"
+    "bluetooth": {
+      "name": "Bluetooth",
+      "type_path": "yasb.bluetooth.BluetoothWidget",
+      "category": "Network",
+      "description": "Bluetooth status and device management",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Bluetooth"
+    },
+    "cava": {
+      "name": "CAVA",
+      "type_path": "yasb.cava.CavaWidget",
+      "category": "Media",
+      "description": "Audio visualizer using CAVA",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Cava"
+    },
+    "clock": {
+      "name": "Clock",
+      "type_path": "yasb.clock.ClockWidget",
+      "category": "System",
+      "description": "Displays current time and date with optional calendar",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Clock"
+    },
+    "copilot": {
+      "name": "Copilot",
+      "type_path": "yasb.copilot.CopilotWidget",
+      "category": "Productivity",
+      "description": "GitHub Copilot premium request usage tracker",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Copilot"
+    },
+    "cpu": {
+      "name": "CPU",
+      "type_path": "yasb.cpu.CpuWidget",
+      "category": "Hardware",
+      "description": "CPU usage and frequency monitoring",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-CPU"
     },
     "custom": {
       "name": "Custom",
       "type_path": "yasb.custom.CustomWidget",
       "category": "Custom",
-      "description": "Custom widget with user-defined script/command"
+      "description": "Custom widget with user-defined script/command",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Custom"
+    },
+    "disk": {
+      "name": "Disk",
+      "type_path": "yasb.disk.DiskWidget",
+      "category": "Hardware",
+      "description": "Disk space usage monitoring",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Disk"
+    },
+    "github": {
+      "name": "GitHub",
+      "type_path": "yasb.github.GithubWidget",
+      "category": "Productivity",
+      "description": "GitHub notifications widget",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Github"
+    },
+    "glazewm_binding_mode": {
+      "name": "GlazeWM Binding Mode",
+      "type_path": "glazewm.binding_mode.GlazewmBindingModeWidget",
+      "category": "Window Manager",
+      "description": "GlazeWM binding mode indicator",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-GlazeWM-Binding-Mode"
+    },
+    "glazewm_tiling_direction": {
+      "name": "GlazeWM Tiling Direction",
+      "type_path": "glazewm.tiling_direction.GlazewmTilingDirectionWidget",
+      "category": "Window Manager",
+      "description": "GlazeWM tiling direction indicator",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-GlazeWM-Tiling-Direction"
+    },
+    "glazewm_workspaces": {
+      "name": "GlazeWM Workspaces",
+      "type_path": "glazewm.workspaces.GlazewmWorkspacesWidget",
+      "category": "Window Manager",
+      "description": "GlazeWM workspace indicator and switcher",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-GlazeWM-Workspaces"
+    },
+    "glucose_monitor": {
+      "name": "Glucose Monitor",
+      "type_path": "yasb.glucose_monitor.GlucoseMonitor",
+      "category": "Utilities",
+      "description": "Blood glucose level monitor (Dexcom)",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Glucose-Monitor"
+    },
+    "gpu": {
+      "name": "GPU",
+      "type_path": "yasb.gpu.GpuWidget",
+      "category": "Hardware",
+      "description": "GPU usage and temperature monitoring",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-GPU"
     },
     "grouper": {
       "name": "Grouper",
       "type_path": "yasb.grouper.GrouperWidget",
       "category": "Custom",
-      "description": "Group multiple widgets together"
+      "description": "Group multiple widgets together",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Grouper"
+    },
+    "home": {
+      "name": "Home",
+      "type_path": "yasb.home.HomeWidget",
+      "category": "Productivity",
+      "description": "Home menu with quick access and system options",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Home"
+    },
+    "komorebi_control": {
+      "name": "Komorebi Control",
+      "type_path": "komorebi.control.KomorebiControlWidget",
+      "category": "Window Manager",
+      "description": "Komorebi control buttons",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Komorebi-Control"
+    },
+    "komorebi_active_layout": {
+      "name": "Komorebi Layout",
+      "type_path": "komorebi.active_layout.ActiveLayoutWidget",
+      "category": "Window Manager",
+      "description": "Komorebi tiling layout indicator",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Komorebi-Layout"
+    },
+    "komorebi_stack": {
+      "name": "Komorebi Stack",
+      "type_path": "komorebi.stack.StackWidget",
+      "category": "Window Manager",
+      "description": "Komorebi stacked windows indicator",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Komorebi-Stack"
+    },
+    "komorebi_workspaces": {
+      "name": "Komorebi Workspaces",
+      "type_path": "komorebi.workspaces.WorkspaceWidget",
+      "category": "Window Manager",
+      "description": "Komorebi workspace indicator and switcher",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Komorebi-Workspaces"
+    },
+    "language": {
+      "name": "Language",
+      "type_path": "yasb.language.LanguageWidget",
+      "category": "System",
+      "description": "Current keyboard language/input method",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Language"
+    },
+    "launchpad": {
+      "name": "Launchpad",
+      "type_path": "yasb.launchpad.LaunchpadWidget",
+      "category": "Productivity",
+      "description": "macOS-style app launchpad",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Launchpad"
+    },
+    "libre_monitor": {
+      "name": "Libre HW Monitor",
+      "type_path": "yasb.libre_monitor.LibreHardwareMonitorWidget",
+      "category": "Hardware",
+      "description": "Hardware monitoring via LibreHardwareMonitor",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Libre-HW-Monitor"
+    },
+    "media": {
+      "name": "Media",
+      "type_path": "yasb.media.MediaWidget",
+      "category": "Media",
+      "description": "Media player controls and now playing info",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Media"
+    },
+    "memory": {
+      "name": "Memory",
+      "type_path": "yasb.memory.MemoryWidget",
+      "category": "Hardware",
+      "description": "RAM usage monitoring",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Memory"
+    },
+    "microphone": {
+      "name": "Microphone",
+      "type_path": "yasb.microphone.MicrophoneWidget",
+      "category": "Media",
+      "description": "Microphone volume and mute control",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Microphone"
+    },
+    "notifications": {
+      "name": "Notifications",
+      "type_path": "yasb.notifications.NotificationsWidget",
+      "category": "System",
+      "description": "Windows notification center access and counter",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Notifications"
+    },
+    "notes": {
+      "name": "Notes",
+      "type_path": "yasb.notes.NotesWidget",
+      "category": "Productivity",
+      "description": "Quick notes widget",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Notes"
+    },
+    "obs": {
+      "name": "OBS",
+      "type_path": "yasb.obs.ObsWidget",
+      "category": "Productivity",
+      "description": "OBS Studio controls",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Obs"
+    },
+    "power_menu": {
+      "name": "Power Menu",
+      "type_path": "yasb.power_menu.PowerMenuWidget",
+      "category": "System",
+      "description": "System power options (shutdown, restart, sleep, etc.)",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Power-Menu"
+    },
+    "power_plan": {
+      "name": "Power Plan",
+      "type_path": "yasb.power_plan.PowerPlanWidget",
+      "category": "System",
+      "description": "Windows power plan selector",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Power-Plan"
+    },
+    "pomodoro": {
+      "name": "Pomodoro",
+      "type_path": "yasb.pomodoro.PomodoroWidget",
+      "category": "Productivity",
+      "description": "Pomodoro timer for productivity",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Pomodoro"
+    },
+    "recycle_bin": {
+      "name": "Recycle Bin",
+      "type_path": "yasb.recycle_bin.RecycleBinWidget",
+      "category": "System",
+      "description": "Recycle bin status and controls",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Recycle-Bin"
+    },
+    "server_monitor": {
+      "name": "Server Monitor",
+      "type_path": "yasb.server_monitor.ServerMonitor",
+      "category": "Network",
+      "description": "Monitor remote server status",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Server-Monitor"
+    },
+    "systray": {
+      "name": "System Tray",
+      "type_path": "yasb.systray.SystrayWidget",
+      "category": "System",
+      "description": "System tray icons container",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Systray"
+    },
+    "taskbar": {
+      "name": "Taskbar",
+      "type_path": "yasb.taskbar.TaskbarWidget",
+      "category": "Window Manager",
+      "description": "Windows taskbar replacement",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Taskbar"
+    },
+    "todo": {
+      "name": "Todo",
+      "type_path": "yasb.todo.TodoWidget",
+      "category": "Productivity",
+      "description": "Task/todo list widget",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Todo"
+    },
+    "traffic": {
+      "name": "Traffic",
+      "type_path": "yasb.traffic.TrafficWidget",
+      "category": "Network",
+      "description": "Network traffic monitoring",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Traffic"
+    },
+    "update_check": {
+      "name": "Update Check",
+      "type_path": "yasb.update_check.UpdateCheckWidget",
+      "category": "System",
+      "description": "Check for Windows updates",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Update-Check"
+    },
+    "volume": {
+      "name": "Volume",
+      "type_path": "yasb.volume.VolumeWidget",
+      "category": "Media",
+      "description": "System volume control",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Volume"
+    },
+    "vscode": {
+      "name": "VS Code",
+      "type_path": "yasb.vscode.VSCodeWidget",
+      "category": "Productivity",
+      "description": "VS Code recent projects launcher",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-VSCode"
+    },
+    "wallpapers": {
+      "name": "Wallpapers",
+      "type_path": "yasb.wallpapers.WallpapersWidget",
+      "category": "Utilities",
+      "description": "Wallpaper changer widget",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Wallpapers"
+    },
+    "weather": {
+      "name": "Weather",
+      "type_path": "yasb.weather.WeatherWidget",
+      "category": "Utilities",
+      "description": "Weather forecast and current conditions",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Weather"
+    },
+    "whkd": {
+      "name": "WHKD",
+      "type_path": "yasb.whkd.WhkdWidget",
+      "category": "Utilities",
+      "description": "WHKD hotkey daemon",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Whkd"
+    },
+    "wifi": {
+      "name": "WiFi",
+      "type_path": "yasb.wifi.WifiWidget",
+      "category": "Network",
+      "description": "WiFi connection status and signal strength",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-WiFi"
+    },
+    "windows_desktops": {
+      "name": "Windows Desktops",
+      "type_path": "yasb.windows_desktops.WorkspaceWidget",
+      "category": "Window Manager",
+      "description": "Windows virtual desktop switcher",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Windows-Desktops"
     }
   }
 }
