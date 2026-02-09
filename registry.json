@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-11",
+  "last_updated": "2026-02-09",
   "widgets": {
     "active_window": {
       "name": "Active Window",
@@ -181,7 +181,7 @@
       "name": "Launchpad",
       "type_path": "yasb.launchpad.LaunchpadWidget",
       "category": "Productivity",
-      "description": "macOS-style app launchpad",
+      "description": "App launchpad grid for quick access",
       "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Launchpad"
     },
     "libre_monitor": {
@@ -344,6 +344,13 @@
       "category": "Network",
       "description": "WiFi connection status and signal strength",
       "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-WiFi"
+    },
+    "window_controls": {
+      "name": "Window Controls",
+      "type_path": "yasb.window_controls.WindowControlsWidget",
+      "category": "Window Manager",
+      "description": "Window control buttons for the focused window",
+      "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Window-Controls"
     },
     "windows_desktops": {
       "name": "Windows Desktops",
