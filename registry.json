@@ -233,6 +233,13 @@
 			"description": "OBS Studio controls",
 			"doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Obs"
 		},
+        "open_meteo": {
+            "name": "Open Meteo",
+            "type_path": "yasb.open_meteo.OpenMeteoWidget",
+            "category": "Utilities",
+            "description": "Weather forecast using Open-Meteo API",
+            "doc_link": "https://github.com/amnweb/yasb/wiki/(Widget)-Open-Meteo"
+        },
 		"power_menu": {
 			"name": "Power Menu",
 			"type_path": "yasb.power_menu.PowerMenuWidget",
